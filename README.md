@@ -1,12 +1,12 @@
 #Introduction
 
-This is a repo for a project at Wildhacks 2015, 11-21-15 - 11-22-15, at Northwestern University.
+This is a repo for a project at Wildhacks 2015, 11/21 - 11/22/2015, at Northwestern University.
 
 The team members are Shayne Hemminger (Louisville), Jon Tan (Waterloo), Jack Wu (Northwestern), and Aditya Dhingra (Purdue).
 
-##We are building a remote, cloud-streaming camera for mobile viewing. 
+#####We are building a remote, cloud-streaming camera for mobile viewing. 
 
-##We are using:
+###We are using:
 
 - Microcontroller: Particle Photon (Arduino-compatible WiFi development board)
 
@@ -16,7 +16,7 @@ The team members are Shayne Hemminger (Louisville), Jon Tan (Waterloo), Jack Wu 
 
 - Mobile development: Android Studio
 
-##The programming languages we use are:
+###The programming languages we use are:
 
 - C, for Arduino/Photon
 
@@ -24,9 +24,17 @@ The team members are Shayne Hemminger (Louisville), Jon Tan (Waterloo), Jack Wu 
 
 - Swift, for iOS
 
-##The APIs we are using:
+###The APIs we are using:
 
-##The prizes we are aiming for include:
+- CloudSight API - image recognition 
+
+- Braintree API - payments
+
+- Walgreens - take photo and print it
+
+- Postmates - deliver that picture
+
+###The prizes we are aiming for include:
 
 - Belvedere's hack that facilitates communication - cloud video throughput can communicate hand signals over the internet
 
@@ -40,11 +48,11 @@ The team members are Shayne Hemminger (Louisville), Jon Tan (Waterloo), Jack Wu 
 
 - Postmates - deliver that picture (to us?)
 
-- Social need - Helping police with mugshots by taking a picture and printing/sending it out???
+- Social need - Blackmail
 
-- Punniest name - "CamerAWS"
+- Punniest name - "CamerAzure"
 
-##The equipment we have are:
+###The equipment we have are:
 
 - Many Arduinos (UNO, Mega 2560, Nano, Pro Mini - Jackie, Jon)
 
