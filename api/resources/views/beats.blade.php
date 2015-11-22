@@ -37,11 +37,7 @@
     </head>
     <body>
         <div class="container">
-@if(Session::has('success'))
-    <div class="alert-box success">
-        <h2>{{ Session::get('success') }}</h2>
-    </div>
-@endif
+
 <?php
     $colors = array("black", "blue", "gold", "green", "pink", "red");
 ?>
