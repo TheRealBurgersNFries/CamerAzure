@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DE82FC1C00FB160084253E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE82FB1C00FB160084253E /* AppDelegate.swift */; };
+		89DE82FE1C00FB160084253E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE82FD1C00FB160084253E /* ViewController.swift */; };
+		89DE83011C00FB160084253E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DE82FF1C00FB160084253E /* Main.storyboard */; };
+		89DE83041C00FB160084253E /* camerAzure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89DE83021C00FB160084253E /* camerAzure.xcdatamodeld */; };
+		89DE83061C00FB160084253E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DE83051C00FB160084253E /* Assets.xcassets */; };
+		89DE83091C00FB160084253E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DE83071C00FB160084253E /* LaunchScreen.storyboard */; };
+		89DE83141C00FB160084253E /* camerAzureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE83131C00FB160084253E /* camerAzureTests.swift */; };
+		89DE831F1C00FB170084253E /* camerAzureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE831E1C00FB170084253E /* camerAzureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DE83101C00FB160084253E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DE82F01C00FB160084253E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DE82F71C00FB160084253E;
+			remoteInfo = camerAzure;
+		};
+		89DE831B1C00FB170084253E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DE82F01C00FB160084253E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DE82F71C00FB160084253E;
+			remoteInfo = camerAzure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DE82F81C00FB160084253E /* camerAzure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camerAzure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DE82FB1C00FB160084253E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89DE82FD1C00FB160084253E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89DE83001C00FB160084253E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89DE83031C00FB160084253E /* camerAzure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = camerAzure.xcdatamodel; sourceTree = "<group>"; };
+		89DE83051C00FB160084253E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DE83081C00FB160084253E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89DE830A1C00FB160084253E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DE830F1C00FB160084253E /* camerAzureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camerAzureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DE83131C00FB160084253E /* camerAzureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camerAzureTests.swift; sourceTree = "<group>"; };
+		89DE83151C00FB160084253E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DE831A1C00FB170084253E /* camerAzureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camerAzureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DE831E1C00FB170084253E /* camerAzureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camerAzureUITests.swift; sourceTree = "<group>"; };
+		89DE83201C00FB170084253E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DE82F51C00FB160084253E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE830C1C00FB160084253E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE83171C00FB170084253E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DE82EF1C00FB160084253E = {
+			isa = PBXGroup;
+			children = (
+				89DE82FA1C00FB160084253E /* camerAzure */,
+				89DE83121C00FB160084253E /* camerAzureTests */,
+				89DE831D1C00FB170084253E /* camerAzureUITests */,
+				89DE82F91C00FB160084253E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DE82F91C00FB160084253E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DE82F81C00FB160084253E /* camerAzure.app */,
+				89DE830F1C00FB160084253E /* camerAzureTests.xctest */,
+				89DE831A1C00FB170084253E /* camerAzureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DE82FA1C00FB160084253E /* camerAzure */ = {
+			isa = PBXGroup;
+			children = (
+				89DE82FB1C00FB160084253E /* AppDelegate.swift */,
+				89DE82FD1C00FB160084253E /* ViewController.swift */,
+				89DE82FF1C00FB160084253E /* Main.storyboard */,
+				89DE83051C00FB160084253E /* Assets.xcassets */,
+				89DE83071C00FB160084253E /* LaunchScreen.storyboard */,
+				89DE830A1C00FB160084253E /* Info.plist */,
+				89DE83021C00FB160084253E /* camerAzure.xcdatamodeld */,
+			);
+			path = camerAzure;
+			sourceTree = "<group>";
+		};
+		89DE83121C00FB160084253E /* camerAzureTests */ = {
+			isa = PBXGroup;
+			children = (
+				89DE83131C00FB160084253E /* camerAzureTests.swift */,
+				89DE83151C00FB160084253E /* Info.plist */,
+			);
+			path = camerAzureTests;
+			sourceTree = "<group>";
+		};
+		89DE831D1C00FB170084253E /* camerAzureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89DE831E1C00FB170084253E /* camerAzureUITests.swift */,
+				89DE83201C00FB170084253E /* Info.plist */,
+			);
+			path = camerAzureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DE82F71C00FB160084253E /* camerAzure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DE83231C00FB170084253E /* Build configuration list for PBXNativeTarget "camerAzure" */;
+			buildPhases = (
+				89DE82F41C00FB160084253E /* Sources */,
+				89DE82F51C00FB160084253E /* Frameworks */,
+				89DE82F61C00FB160084253E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = camerAzure;
+			productName = camerAzure;
+			productReference = 89DE82F81C00FB160084253E /* camerAzure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DE830E1C00FB160084253E /* camerAzureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DE83261C00FB170084253E /* Build configuration list for PBXNativeTarget "camerAzureTests" */;
+			buildPhases = (
+				89DE830B1C00FB160084253E /* Sources */,
+				89DE830C1C00FB160084253E /* Frameworks */,
+				89DE830D1C00FB160084253E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DE83111C00FB160084253E /* PBXTargetDependency */,
+			);
+			name = camerAzureTests;
+			productName = camerAzureTests;
+			productReference = 89DE830F1C00FB160084253E /* camerAzureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89DE83191C00FB170084253E /* camerAzureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DE83291C00FB170084253E /* Build configuration list for PBXNativeTarget "camerAzureUITests" */;
+			buildPhases = (
+				89DE83161C00FB170084253E /* Sources */,
+				89DE83171C00FB170084253E /* Frameworks */,
+				89DE83181C00FB170084253E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DE831C1C00FB170084253E /* PBXTargetDependency */,
+			);
+			name = camerAzureUITests;
+			productName = camerAzureUITests;
+			productReference = 89DE831A1C00FB170084253E /* camerAzureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DE82F01C00FB160084253E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Aditya Dhingra";
+				TargetAttributes = {
+					89DE82F71C00FB160084253E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = WD5637H5AA;
+					};
+					89DE830E1C00FB160084253E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 89DE82F71C00FB160084253E;
+					};
+					89DE83191C00FB170084253E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 89DE82F71C00FB160084253E;
+					};
+				};
+			};
+			buildConfigurationList = 89DE82F31C00FB160084253E /* Build configuration list for PBXProject "camerAzure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DE82EF1C00FB160084253E;
+			productRefGroup = 89DE82F91C00FB160084253E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DE82F71C00FB160084253E /* camerAzure */,
+				89DE830E1C00FB160084253E /* camerAzureTests */,
+				89DE83191C00FB170084253E /* camerAzureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DE82F61C00FB160084253E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DE83091C00FB160084253E /* LaunchScreen.storyboard in Resources */,
+				89DE83061C00FB160084253E /* Assets.xcassets in Resources */,
+				89DE83011C00FB160084253E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE830D1C00FB160084253E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE83181C00FB170084253E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DE82F41C00FB160084253E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DE82FE1C00FB160084253E /* ViewController.swift in Sources */,
+				89DE83041C00FB160084253E /* camerAzure.xcdatamodeld in Sources */,
+				89DE82FC1C00FB160084253E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE830B1C00FB160084253E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DE83141C00FB160084253E /* camerAzureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DE83161C00FB170084253E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DE831F1C00FB170084253E /* camerAzureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DE83111C00FB160084253E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DE82F71C00FB160084253E /* camerAzure */;
+			targetProxy = 89DE83101C00FB160084253E /* PBXContainerItemProxy */;
+		};
+		89DE831C1C00FB170084253E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DE82F71C00FB160084253E /* camerAzure */;
+			targetProxy = 89DE831B1C00FB170084253E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89DE82FF1C00FB160084253E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DE83001C00FB160084253E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89DE83071C00FB160084253E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DE83081C00FB160084253E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DE83211C00FB170084253E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DE83221C00FB170084253E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DE83241C00FB170084253E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = camerAzure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adityadhingra.camerAzure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		89DE83251C00FB170084253E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = camerAzure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adityadhingra.camerAzure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		89DE83271C00FB170084253E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = camerAzureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adityadhingra.camerAzureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camerAzure.app/camerAzure";
+			};
+			name = Debug;
+		};
+		89DE83281C00FB170084253E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = camerAzureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adityadhingra.camerAzureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camerAzure.app/camerAzure";
+			};
+			name = Release;
+		};
+		89DE832A1C00FB170084253E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = camerAzureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adityadhingra.camerAzureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = camerAzure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		89DE832B1C00FB170084253E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = camerAzureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adityadhingra.camerAzureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = camerAzure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DE82F31C00FB160084253E /* Build configuration list for PBXProject "camerAzure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DE83211C00FB170084253E /* Debug */,
+				89DE83221C00FB170084253E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DE83231C00FB170084253E /* Build configuration list for PBXNativeTarget "camerAzure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DE83241C00FB170084253E /* Debug */,
+				89DE83251C00FB170084253E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89DE83261C00FB170084253E /* Build configuration list for PBXNativeTarget "camerAzureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DE83271C00FB170084253E /* Debug */,
+				89DE83281C00FB170084253E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89DE83291C00FB170084253E /* Build configuration list for PBXNativeTarget "camerAzureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DE832A1C00FB170084253E /* Debug */,
+				89DE832B1C00FB170084253E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89DE83021C00FB160084253E /* camerAzure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89DE83031C00FB160084253E /* camerAzure.xcdatamodel */,
+			);
+			currentVersion = 89DE83031C00FB160084253E /* camerAzure.xcdatamodel */;
+			path = camerAzure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89DE82F01C00FB160084253E /* Project object */;
+}
