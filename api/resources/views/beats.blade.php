@@ -55,19 +55,19 @@
 @endif
 <?php
     $colors = array("black", "blue", "gold", "green", "pink", "red");
-    if(!empty($results)){
-                print_r($results);
+    if(!empty($returnarray['results'])){
+                print_r($returnarray['results']);
     }
 ?>
             <div class="content">
             <?php
-            if (isset($search_result)){
-                echo $search_result;
+            if (isset($returnarray['search_result'])){
+                echo $returnarray['search_result'];
             }
             foreach($colors as $color){
                 $formatting = "";
-                if(isset($results)) {
-                    if(in_array($color, $results)){
+                if(isset($returnarray['results'])) {
+                    if(in_array($color, $returnarray['results'])){
                         $formatting = ' id="selected" ';
                 }   
                 }
