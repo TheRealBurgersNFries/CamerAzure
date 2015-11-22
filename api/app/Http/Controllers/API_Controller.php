@@ -81,6 +81,7 @@ class API_Controller extends Controller
 	
 
     public function beats_post(){
+        $results = array();
         $colors = array("black", "blue", "gold", "green", "pink", "red");
        // getting all of the post data
        $file = array('image' => Input::file('image_request'));
@@ -115,7 +116,7 @@ class API_Controller extends Controller
                        break;
                    }
                }
-               $results = array();
+               
                 foreach ($colors as $color){
                     if(strpos($result->name, $color)){
                         array_push($results, $color);
