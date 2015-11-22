@@ -62,10 +62,9 @@
             foreach($colors as $color){
                 $formatting = "";
                 if(isset($results)){
-                print_r($results);
-                if(in_array($color, $results)){
-                    $formatting = ' id="selected" ';
-                }
+                    if(in_array($color, $results)){
+                        $formatting = ' id="selected" ';
+                }   
                 }
                 
                 echo '<span><img class="demo_img" '.$formatting.'src="beats/'.$color.'.jpg"></span>';
