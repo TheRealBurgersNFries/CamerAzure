@@ -53,7 +53,11 @@
 ?>
             <div class="content">
             <?php
+            if(isset($results)){
+                print_r($results);
+            }
             foreach($colors as $color){
+                $formatting = "";
                 echo '<span><img class="demo_img" src="beats/'.$color.'.jpg"></span>';
             }
             ?>

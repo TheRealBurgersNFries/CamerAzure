@@ -69,7 +69,6 @@ class API_Controller extends Controller
 
 			   $result = array("success" => 1, "description" => $result->name);
 
-                return View::make('welcome');
 				return response()->json($result);		   
 }
 		   else {
@@ -123,7 +122,7 @@ class API_Controller extends Controller
                     }
                 }
 
-                return View::make('beats')->with("identified", $results);
+                return View::make('beats')->with("results", $results);
                           
 }
            else {
