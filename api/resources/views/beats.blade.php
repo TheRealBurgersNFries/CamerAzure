@@ -33,6 +33,12 @@
             .title {
                 font-size: 96px;
             }
+
+            .demo_img{
+                height:100px;
+                width:100px;
+                display:inline-block;
+            }
         </style>
     </head>
     <body>
@@ -48,7 +54,7 @@
             <div class="content">
             <?php
             foreach($colors as $color){
-                echo '<span><img src="beats/'.$color.'.jpg"></span>';
+                echo '<span class="demo_img"><img src="beats/'.$color.'.jpg"></span>';
             }
             ?>
             </div>
