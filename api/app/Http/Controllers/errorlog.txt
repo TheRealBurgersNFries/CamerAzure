@@ -1,0 +1,42 @@
+* Hostname was found in DNS cache
+* Hostname in DNS cache was stale, zapped
+*   Trying 54.235.131.235...
+* Connected to api.cloudsightapi.com (54.235.131.235) port 443 (#4)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using ECDHE-RSA-AES128-GCM-SHA256
+* Server certificate:
+* 	 subject: C=US; ST=California; L=Los Angeles; O=Image Searcher, Inc.; CN=api.cloudsightapi.com
+* 	 start date: 2014-12-19 00:00:00 GMT
+* 	 expire date: 2015-12-23 12:00:00 GMT
+* 	 subjectAltName: api.cloudsightapi.com matched
+* 	 issuer: C=US; O=DigiCert Inc; CN=DigiCert SHA2 Secure Server CA
+* 	 SSL certificate verify ok.
+> POST /image_requests HTTP/1.1
+Host: api.cloudsightapi.com
+Accept: */*
+Authorization: CloudSight QjfN3AYDZsxYRgOSx9ldWQ
+Content-type: multipart/form-data
+Expect: 100-continue
+Content-Length: 144
+
+< HTTP/1.1 100 Continue
+< HTTP/1.1 400 Bad Request
+< Cache-Control: no-cache
+< Content-Type: application/json; charset=utf-8
+< Date: Sun, 22 Nov 2015 14:56:22 GMT
+* Server nginx/1.4.6 (Ubuntu) is not blacklisted
+< Server: nginx/1.4.6 (Ubuntu)
+< Set-Cookie: _imagetag_session=a0xCZnRzbXFWU0sxeTE5dGVGNnhPaFFLelRxVEZ2WExpd0pDVlZ3MzNhS1RrNzVRUDJqSlo4N09MelQ5Z2pkRmVRTDJUZk5kWXZNTzNuQzdScmZ2dVE9PS0ta2UrREdhR1pTbHcxM0s1c0ZaSTVTUT09--6510d0bd6746f9aaac6141b0c988dac86707af2c; path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Request-Id: db3f1d70-36e0-43d3-9590-1006eaf33f76
+< X-Runtime: 0.008745
+< X-UA-Compatible: chrome=1
+< X-XSS-Protection: 1; mode=block
+< Content-Length: 27
+< Connection: keep-alive
+* HTTP error before end of send, stop sending
+< 
+* Closing connection 4

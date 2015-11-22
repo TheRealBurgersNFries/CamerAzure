@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nfreear/cloudsight-http-client": "dev-master"
+    }
+}

@@ -37,6 +37,12 @@
     </head>
     <body>
         <div class="container">
+@if(Session::has('success'))
+    <div class="alert-box success">
+        <h2>{{ Session::get('success') }}</h2>
+    </div>
+@endif
+
             <div class="content">
                 <div class="title">Laravel 5</div>
             </div>

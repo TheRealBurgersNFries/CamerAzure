@@ -1,0 +1,177 @@
+== Info: Hostname was NOT found in DNS cache
+== Info:   Trying 54.235.131.235...
+== Info: Connected to api.cloudsightapi.com (54.235.131.235) port 443 (#0)
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: none
+  CApath: /etc/ssl/certs
+== Info: SSLv3, TLS handshake, Client hello (1):
+=> Send SSL data, 298 bytes (0x12a)
+0000: ...&..W1Sw+.......}.h.....N....bg.......v.0.,.(.$.........k.j.9.
+0040: 8.....2...*.&.......=.5................./.+.'.#.........g.@.3.2.
+0080: ....E.D.1.-.).%.......<./...A...............api.cloudsightapi.co
+00c0: m...........4.2.................................................
+0100: .... .....................................
+== Info: SSLv3, TLS handshake, Server hello (2):
+<= Recv SSL data, 89 bytes (0x59)
+0000: ...U....d..\L.)............C...t.7..Fc ...}#.......1......F..t){
+0040: ...u.i../................
+== Info: SSLv3, TLS handshake, CERT (11):
+<= Recv SSL data, 3457 bytes (0xd81)
+0000: ...}..z..&0.."0..............'..........&0...*.H........0M1.0...
+0040: U....US1.0...U....DigiCert Inc1'0%..U....DigiCert SHA2 Secure Se
+0080: rver CA0...141219000000Z..151223120000Z0w1.0...U....US1.0...U...
+00c0: .California1.0...U....Los Angeles1.0...U....Image Searcher, Inc.
+0100: 1.0...U....api.cloudsightapi.com0.."0...*.H.............0.......
+0140: ....y.5....m.:.v.....x...+....B*..b.]Z.(*.%..>.0z...%..LL..N...>
+0180: ....-?......g.lc..TY......h.{SB.n.B;...n...Gf9..@-.~..)...d1...
+01c0: $......3.).....S..s...&.,...|...M...._B....5:k:......u.qq.6.r.G
+0200: ..+x.J.)m7;.-.h.S~..N^..|Y..x.6(.B.'..bd..4...*.....k.h..R.A..0.
+0240: u.........0...0...U.#..0.....a..1a./(..F8.,....0...U.......Q...A
+0280:  ..\..J....6R@0 ..U....0...api.cloudsightapi.com0...U...........
+02c0: 0...U.%..0...+.........+.......0k..U...d0b0/.-.+.)http://crl3.di
+0300: gicert.com/ssca-sha2-g3.crl0/.-.+.)http://crl4.digicert.com/ssca
+0340: -sha2-g3.crl0B..U. .;0907..`.H...l..0*0(..+.........https://www.
+0380: digicert.com/CPS0|..+........p0n0$..+.....0...http://ocsp.digice
+03c0: rt.com0F..+.....0..:http://cacerts.digicert.com/DigiCertSHA2Secu
+0400: reServerCA.crt0...U.......0.0...*.H.............4.I.w...l9Y<..jS
+0440: I;...$../.vVyJ...D...y.rQ. ...x%......T......./...s...~...],_..
+0480: i[.sf.j+.... ...XO...n4..o...,....Y......a!.\7..e:m6`|?.....Ka.-
+04c0: .%..d...$DK.[.;......H......"Y..}WX.E....D$.....d..8.....4..3D.
+0500: tJF;._.p...2.j]....A{.I..w.I,.t.~.P.6..q....L..I...0...0..|.....
+0540: ......n.u..C.rK...0...*.H........0a1.0...U....US1.0...U....DigiC
+0580: ert Inc1.0...U....www.digicert.com1 0...U....DigiCert Global Roo
+05c0: t CA0...130308120000Z..230308120000Z0M1.0...U....US1.0...U....Di
+0600: giCert Inc1'0%..U....DigiCert SHA2 Secure Server CA0.."0...*.H..
+0640: ...........0..........X.M..0..5[n<...,\....qC.d%.....M.f..sn..6.
+0680: d.7...A.......sM.3.....S.+..uH-.V7{.12.......]K.GF.*....y.....j.
+06c0: ;......eN....z..\~U1..9..../..j..._.WtS;5....D.........k).D.KX.m
+0700: .K...s...H..Eu..71....T.;..?9^...\~...A..EfG..e...).N.......r.0.
+0740: .....w..[(W......EX.........Z0..V0...U.......0.......0...U......
+0780: .....04..+........(0&0$..+.....0...http://ocsp.digicert.com0{..U
+07c0: ...t0r07.5.3.1http://crl3.digicert.com/DigiCertGlobalRootCA.crl0
+0800: 7.5.3.1http://crl4.digicert.com/DigiCertGlobalRootCA.crl0=..U. .
+0840: 60402..U. .0*0(..+.........https://www.digicert.com/CPS0...U....
+0880: ....a..1a./(..F8.,....0...U.#..0.....P5V.L.f........=.U0...*.H..
+08c0: ...........#>.K.1B..~B\.D.i.h.]K..!lK.m......S...*e.9O...n\..$&.
+0900: ........MJ..B.x....m.!.S6`Lv..8..Q......M'd...>q.H..3m..........
+0940: \L@.....q..G.....7B. ..n.....}.Y....o-...._&.,.~.7...9......4..!
+0980: h..s..2.8%.U....h...A4.|.P..:.........X%..w.-n.R..t..I..;.4(.x..
+09c0: .....m..\2....0...0...........;.V.BF..uj.Y..J0...*.H........0a1.
+0a00: 0...U....US1.0...U....DigiCert Inc1.0...U....www.digicert.com1 0
+0a40: ...U....DigiCert Global Root CA0...061110000000Z..311110000000Z0
+0a80: a1.0...U....US1.0...U....DigiCert Inc1.0...U....www.digicert.com
+0ac0: 1 0...U....DigiCert Global Root CA0.."0...*.H.............0.....
+0b00: ....;..r.....W.P...w........[.. ....N0.S.C.i.W..."...@..........
+0b40: ;qF..f...v'..{...}..H.....z.9.eJ].......(.tzx.Y.hn\#2K.N..Zm.p
+0b80: .w........D.X2.u.....G.'j..3.I.`.._.:....JL}>.O_lv^.K7...".m....
+0bc0: j.....d..[).2......B...A2.........X?...I(.p.1......L.N...J=^...
+0c00: ..'......c0a0...U...........0...U.......0....0...U........P5V.L.
+0c40: f........=.U0...U.#..0.....P5V.L.f........=.U0...*.H............
+0c80: ...7.H.....D.OR......yy..$..K+..-.......X..m.zt..)....p...L.....
+0cc0: p........c...`....[.....S..c.?...f.bf..nA..-..wJ..X.+Y.@#.-(.E>y
+0d00: T.&...H.7...y`......n.D.8/I..E>*.6S.:P.....WIla!....x<,:.k......
+0d40: ....8l..l..d.w%W0..$.....G|..$..0.-...E.P............4_..<.....m
+0d80: .
+== Info: SSLv3, TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.{..+2Wf1.... ........?u%8)0..q.....a.UL...\......%.8.F.
+0040: <....PO.y....Z..4.q.......lfl....5.2.e..U).Wc%FoCn..w...Yy..T..y
+0080: .......a~........._.:.s....Q ..s.Ur..-...^..............+...Q..S
+00c0: ,...I.kG.O.../a.....?h....D......Y....y.ft.>...kE..eS.......FL.I
+0100: ...x...m...=..P..,..$.....y.g.q~.....!.._p.:...E..gN...~W....Zj.
+0140: ..=.3..V.C...
+== Info: SSLv3, TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+== Info: SSLv3, TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA..E..7...I...Q.~F[L.......f..r/..G.$...A....G.MH!..db......
+0040: ......
+== Info: SSLv3, TLS change cipher, Client hello (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: SSLv3, TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: ....... ..4..w(c
+== Info: SSLv3, TLS change cipher, Client hello (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: SSLv3, TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ........^....R<P
+== Info: SSL connection using ECDHE-RSA-AES128-GCM-SHA256
+== Info: Server certificate:
+== Info: 	 subject: C=US; ST=California; L=Los Angeles; O=Image Searcher, Inc.; CN=api.cloudsightapi.com
+== Info: 	 start date: 2014-12-19 00:00:00 GMT
+== Info: 	 expire date: 2015-12-23 12:00:00 GMT
+== Info: 	 subjectAltName: api.cloudsightapi.com matched
+== Info: 	 issuer: C=US; O=DigiCert Inc; CN=DigiCert SHA2 Secure Server CA
+== Info: 	 SSL certificate verify ok.
+=> Send header, 279 bytes (0x117)
+0000: POST /image_requests HTTP/1.1
+001f: User-Agent: curl/7.35.0
+0038: Host: api.cloudsightapi.com
+0055: Accept: */*
+0062: Authorization: CloudSight QjfN3AYDZsxYRgOSx9ldWQ
+0094: Content-Length: 357
+00a9: Expect: 100-continue
+00bf: Content-Type: multipart/form-data; boundary=--------------------
+00ff: ----422271b758b0ce3a
+0115: 
+<= Recv header, 23 bytes (0x17)
+0000: HTTP/1.1 100 Continue
+=> Send data, 357 bytes (0x165)
+0000: --------------------------422271b758b0ce3a
+002c: Content-Disposition: form-data; name="image_request[remote_image
+006c: _url]"
+0074: 
+0076: http://fitnessheat.com/wp-content/uploads/2014/10/tomato-nutriti
+00b6: on-facts.jpg
+00c4: --------------------------422271b758b0ce3a
+00f0: Content-Disposition: form-data; name="image_request[locale]"
+012e: 
+0130: en-US
+0137: --------------------------422271b758b0ce3a--
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 52 bytes (0x34)
+0000: Cache-Control: max-age=0, private, must-revalidate
+<= Recv header, 47 bytes (0x2f)
+0000: Content-Type: application/json; charset=utf-8
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 22 Nov 2015 14:55:01 GMT
+<= Recv header, 42 bytes (0x2a)
+0000: ETag: "31bb00544455a5b0c8781fc1d3e8b89f"
+== Info: Server nginx/1.4.6 (Ubuntu) is not blacklisted
+<= Recv header, 30 bytes (0x1e)
+0000: Server: nginx/1.4.6 (Ubuntu)
+<= Recv header, 244 bytes (0xf4)
+0000: Set-Cookie: _imagetag_session=VFVHR0UrcXpLam92TUl5NDlIazBIYk5nTl
+0040: o5eExhQ3FqL0xNb0x3ZDROUTVsUHNOYWdoWDBweXNkV0l0aHptcW9IQUxhZVRMa1
+0080: RyelE2TDdBc2dMVlE9PS0tTGFHOG1KaTdKUzRYUlRGdzdKcmJWZz09--d8070bfe
+00c0: 4de4b4228de846fc75dbc9cc2c3e27c4; path=/; HttpOnly
+<= Recv header, 33 bytes (0x21)
+0000: X-CloudSight-CreditBalance: 989
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 52 bytes (0x34)
+0000: X-Request-Id: f47c3bc4-99d7-4ce5-94f3-ef4135ed9fde
+<= Recv header, 21 bytes (0x15)
+0000: X-Runtime: 2.419941
+<= Recv header, 27 bytes (0x1b)
+0000: X-UA-Compatible: chrome=1
+<= Recv header, 33 bytes (0x21)
+0000: X-XSS-Protection: 1; mode=block
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 147
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 147 bytes (0x93)
+0000: {"token":"V82SOQYDnElnIBGct204yQ","url":"//d1spq65clhrg1f.cloudf
+0040: ront.net/uploads/image_request/image/33/33816/33816046/tomato-nu
+0080: trition-facts.jpg"}
+== Info: Connection #0 to host api.cloudsightapi.com left intact

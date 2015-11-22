@@ -1,0 +1,96 @@
+[
+    {
+        "name": "net/http",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bigcommerce/net-http.git",
+            "reference": "aba27bdaa13e478bcf31b2ec1686577994efbd96"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bigcommerce/net-http/zipball/aba27bdaa13e478bcf31b2ec1686577994efbd96",
+            "reference": "aba27bdaa13e478bcf31b2ec1686577994efbd96",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7"
+        },
+        "time": "2014-01-21 11:53:48",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Net_": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mark Rickerby",
+                "email": "mark.rickerby@bigcommerce.com"
+            }
+        ],
+        "description": "A basic HTTP client"
+    },
+    {
+        "name": "nfreear/cloudsight-http-client",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nfreear/cloudsight-http-client.git",
+            "reference": "bd714354f7567271f272673680fde9bfcb4b6fb6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nfreear/cloudsight-http-client/zipball/bd714354f7567271f272673680fde9bfcb4b6fb6",
+            "reference": "bd714354f7567271f272673680fde9bfcb4b6fb6",
+            "shasum": ""
+        },
+        "require": {
+            "net/http": "1.1.*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "jakub-onderka/php-parallel-lint": "~0.8",
+            "silex/silex": "1.2.*",
+            "squizlabs/php_codesniffer": "~2.1.0",
+            "vlucas/phpdotenv": "1.1.*@dev"
+        },
+        "time": "2015-05-02 00:00:00",
+        "type": "library",
+        "extra": {
+            "class": "Nfreear\\Cloudsight\\Cloudsight_Http_Client"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Nfreear\\Cloudsight\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nick Freear (@nfreear)"
+            }
+        ],
+        "description": "HTTP client for CloudSight's image recognition API. (Not endorsed by CloudSight.)",
+        "homepage": "http://cloudsight.readme.io",
+        "keywords": [
+            "IET-OU",
+            "MachineLearning",
+            "picture",
+            "recognition",
+            "search",
+            "vision"
+        ]
+    }
+]
