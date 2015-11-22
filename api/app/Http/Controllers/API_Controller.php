@@ -122,7 +122,7 @@ class API_Controller extends Controller
                     }
                 }
 
-                return View::make('beats')->with("results", $results);
+                return View::make('beats')->with("results", $results)->with("search_result", $result->name);
                           
 }
            else {

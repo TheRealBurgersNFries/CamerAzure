@@ -58,10 +58,10 @@
 ?>
             <div class="content">
             <?php
-            
+            echo $search_result;
             foreach($colors as $color){
                 $formatting = "";
-                if(isset($results)){
+                if(isset($results)) {
                     if(in_array($color, $results)){
                         $formatting = ' id="selected" ';
                 }   
