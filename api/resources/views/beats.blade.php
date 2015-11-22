@@ -48,7 +48,7 @@
             <div class="content">
             <?php
             foreach($colors as $color){
-                echo '<span><img src="'.$color.'.jpg"></span>';
+                echo '<span><img src="../resources/assets/images/beats'.$color.'.jpg"></span>';
             }
             ?>
             </div>
