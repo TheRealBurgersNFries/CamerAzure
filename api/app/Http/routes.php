@@ -27,5 +27,5 @@ Route::post('beats_post', 'API_Controller@beats_post');
 
 
 Route::get('beats', function () {
-    return view('beats');
+    return view('welcome');
 });
