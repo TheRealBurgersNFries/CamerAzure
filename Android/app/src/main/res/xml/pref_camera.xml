@@ -6,6 +6,8 @@
     <SwitchPreference
 
         android:key="local_camera"
-        android:title="Local Camera" />
+        android:title="Local Camera"
+        android:defaultValue="true"
+        />
 
 </PreferenceScreen>

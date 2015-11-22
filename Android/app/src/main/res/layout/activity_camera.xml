@@ -22,6 +22,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_camera" />
+    <include layout="@layout/web_content" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/frecogb"

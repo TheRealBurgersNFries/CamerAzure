@@ -4,6 +4,7 @@ package com.camerazure.camerazure;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -87,6 +88,15 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         }
     };
 
+    public static final String KEY_CAMERA = "local_camera";
+
+    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+        if (key.equals(KEY_CAMERA)) {
+            Preference cameraPref = findPreference(key);
+            Boolean set = sharedPreferences.getBoolean(key, false);
+            cameraPref.setSummary(set.toString());
+        }
+    }
     /**
      * Helper method to determine if the device has an extra-large screen. For
      * example, 10" tablets are extra-large.
@@ -189,7 +199,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             // to their values. When their values change, their summaries are
             // updated to reflect the new value, per the Android Design
             // guidelines.
-            bindPreferenceSummaryToValue(findPreference("sync_frequency"));
+            bindPreferenceSummaryToValue(findPreference("local_camera"));
         }
 
         @Override

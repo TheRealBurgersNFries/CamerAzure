@@ -3,7 +3,7 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="com.camerazure.camerazure.SettingsActivity$GeneralPreferenceFragment"
+        android:fragment="com.camerazure.camerazure.SettingsActivity$CameraPreferenceFragment"
         android:icon="@drawable/ic_camera_black_24dp"
         android:title="@string/pref_header_camera" />
 
