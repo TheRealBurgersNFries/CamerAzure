@@ -123,7 +123,7 @@ class API_Controller extends Controller
                     }
                 }
 
-                return View::make('beats')->with("identified" => $results);
+                return View::make('beats')->with("identified", $results);
                           
 }
            else {
