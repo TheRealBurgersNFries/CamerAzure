@@ -5,6 +5,8 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.media.audiofx.BassBoost;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -47,6 +49,7 @@ public class CameraActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            settings();
             return true;
         }
 
@@ -55,12 +58,12 @@ public class CameraActivity extends AppCompatActivity {
 
     public void recognize(View vew)
     {
-
+        //TODO: Send image to server for Clousight image recognition
     }
 
     public void capture(View view)
     {
-
+        //TODO: Save Images to phone
     }
 
     public void print_ship(View view)
@@ -78,7 +81,7 @@ public class CameraActivity extends AppCompatActivity {
         builder1.setPositiveButton("OK",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-
+                        //TODO: Implement API request to print/send/pay for picture
                         dialog.cancel();
                     }
                 });
@@ -93,6 +96,12 @@ public class CameraActivity extends AppCompatActivity {
         alert11.show();
 
 
+    }
+
+    public void settings()
+    {
+        Intent settingsIntent = new Intent(this, SettingsActivity.class);
+        startActivity(settingsIntent);
     }
 
 }
