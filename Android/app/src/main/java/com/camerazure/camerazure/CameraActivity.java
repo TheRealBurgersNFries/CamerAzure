@@ -6,8 +6,12 @@ import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Picture;
 import android.media.audiofx.BassBoost;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -21,8 +25,12 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
-public class CameraActivity extends AppCompatActivity {
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.Date;
 
+public class CameraActivity extends AppCompatActivity {
+    WebView myWebView;
     public PopupWindow popUp = new PopupWindow();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +38,7 @@ public class CameraActivity extends AppCompatActivity {
         setContentView(R.layout.activity_camera);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView = (WebView) findViewById(R.id.webview);
         myWebView.loadUrl("https://stream-delta.dropcam.com/nexus_aac/b8fbe1918dd5470e913d5780445bc66b/playlist.m3u8");
 
     }
@@ -63,9 +71,37 @@ public class CameraActivity extends AppCompatActivity {
         //TODO: Send image to server for Clousight image recognition
     }
 
-    public void capture(View view)
-    {
-        //TODO: Save Images to phone
+    public void capture(View view) {
+        View rootView = myWebView;
+        rootView.setDrawingCacheEnabled(true);
+        Bitmap screenshot = rootView.getDrawingCache();
+        //Bitmap bitmap = Bitmap.createBitmap(myWebView.getWidth(),
+        //        myWebView.getHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(screenshot);
+        myWebView.draw(canvas);
+
+
+        Date now = new Date();
+        android.text.format.DateFormat.format("yyyy-MM-dd_hh:mm:ss", now);
+
+        try {
+            // image naming and path  to include sd card  appending name you choose for file
+            String mPath = Environment.getExternalStorageDirectory().toString() + "/" + now + ".jpg";
+
+
+
+            File imageFile = new File(mPath);
+
+            FileOutputStream outputStream = new FileOutputStream(imageFile);
+            int quality = 100;
+            screenshot.compress(Bitmap.CompressFormat.JPEG, quality, outputStream);
+            outputStream.flush();
+            outputStream.close();
+
+        } catch (Throwable e) {
+            // Several error may come out with file handling or OOM
+            e.printStackTrace();
+        }
     }
 
     public void print_ship(View view)
