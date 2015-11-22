@@ -16,6 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('api/', function () {
-    return view('welcome');
-});
+Route::get('api/{request}', 'APIController@requestHandler');
