@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('api', 'APIController@requestHandler');
+Route::get('api/{request_name}', 'APIController@requestHandler');
