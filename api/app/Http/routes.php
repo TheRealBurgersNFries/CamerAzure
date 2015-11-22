@@ -11,9 +11,14 @@
 |
 */
 
+Route::get('demo', function () {
+    return view('welcome');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
+
 
 Route::get('beats', function () {
     return view('welcome');
