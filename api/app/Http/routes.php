@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return "hello";
+    return view('welcome');
 });
 
 
-Route::get('api/{request_name}', function () {
+Route::get('api/', function () {
     return view('welcome');
 });
