@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\APIController;
+namespace App\Http\Controllers;
 
-use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Routing\Controller as Controller;
 
-abstract class APIController extends BaseController
+class APIController extends BaseController
 {
     public function requestHandler($request){
     	$response = array("success" => 1, 
