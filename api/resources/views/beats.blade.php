@@ -54,7 +54,7 @@
             <div class="content">
             <?php
             foreach($colors as $color){
-                echo '<span class="demo_img"><img src="beats/'.$color.'.jpg"></span>';
+                echo '<span><img class="demo_img" src="beats/'.$color.'.jpg"></span>';
             }
             ?>
             </div>
