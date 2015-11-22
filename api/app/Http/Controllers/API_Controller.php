@@ -68,6 +68,8 @@ class API_Controller extends Controller
 			   }
 
 			   $result = array("success" => 1, "description" => $result->name);
+
+                return View::make('welcome');
 				return response()->json($result);		   
 }
 		   else {
@@ -78,6 +80,62 @@ class API_Controller extends Controller
 	   }
     }
 	
+
+    public function beats_post(){
+        $colors = array("black", "blue", "gold", "green", "pink", "red");
+       // getting all of the post data
+       $file = array('image' => Input::file('image_request'));
+       $rules = array('image' => 'required',);
+       $validator = Validator::make($file, $rules);
+       if ($validator->fails()) {
+           // send back to the page with the input data and errors
+           return Redirect::to('upload')->withInput()->withErrors($validator);
+       }
+       else {
+           // checking file is valid.
+           if (Input::file('image_request')->isValid()) {
+               $destinationPath = 'uploads'; // upload path
+               $extension = Input::file('image_request')->getClientOriginalExtension(); // getting image extension
+               $fileName = rand(11111,99999).'.'.$extension; // renameing image
+               Input::file('image_request')->move($destinationPath, $fileName); // uploading file to given path
+               // sending back with message
+               $api_key = "QjfN3AYDZsxYRgOSx9ldWQ";
+               $image_url = 'http://40.121.87.42/'.$destinationPath.'/'.$fileName;
+               $client = new CloudSight_Http_Client($api_key);
+
+               $request = $client->postImageRequests($image_url);
+
+               while (1) {
+
+                   sleep(1);
+
+                   $result = $client->getImageResponses($request->token);
+
+                   // Check if analysis is complete.
+                   if ($client->isComplete()) {
+                       break;
+                   }
+               }
+               $results = array();
+                foreach ($colors as $color){
+                    if(strpos($result->name, $color)){
+                        array_push($results, $color);
+                    }
+                }
+
+                return View::make('beats')->with("identified" => $results);
+                          
+}
+           else {
+               // sending back with error message.
+               Session::flash('error', 'uploaded file is not valid');
+               return View::make('welcome');
+           }
+       }
+    }
+
+    public func
+
    /**
      * Show the form for creating a new resource.
      *
