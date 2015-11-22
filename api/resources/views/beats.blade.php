@@ -62,7 +62,7 @@
             foreach($colors as $color){
                 $formatting = "";
                 if(isset($results)){
-                if(strpos($results, $color)){
+                if(in_array($color, $results)){
                     $formatting = ' id="selected" ';
                 }
             }
