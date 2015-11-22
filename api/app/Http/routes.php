@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('beats', function () {
+    return view('welcome');
+});
 
 Route::get('api/{request?}', 'API_Controller@requestHandler');
 
@@ -25,7 +28,3 @@ Route::post('image_form_post', 'API_Controller@image_form_post');
 
 Route::post('beats_post', 'API_Controller@beats_post');
 
-
-Route::get('beats', function () {
-    return view('welcome');
-});
