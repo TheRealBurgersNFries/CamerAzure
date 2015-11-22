@@ -122,7 +122,7 @@ class API_Controller extends Controller
                         array_push($results, $color);
                     }
                 }
-                $returnarray = array("results" -> $results, "search_result" -> $result->name);
+                $returnarray = array("results" => $results, "search_result" => $result->name);
                 return View::make('beats')->with("returnarray", $returnarray);
                           
 }
