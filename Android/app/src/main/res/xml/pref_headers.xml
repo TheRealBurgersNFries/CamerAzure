@@ -4,17 +4,9 @@
 
     <header
         android:fragment="com.camerazure.camerazure.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_camera_black_24dp"
+        android:title="@string/pref_header_camera" />
 
-        android:title="@string/pref_header_general" />
 
-    <header
-        android:fragment="com.camerazure.camerazure.SettingsActivity$NotificationPreferenceFragment"
-
-        android:title="@string/pref_header_notifications" />
-
-    <header
-        android:fragment="com.camerazure.camerazure.SettingsActivity$DataSyncPreferenceFragment"
-
-        android:title="@string/pref_header_data_sync" />
 
 </preference-headers>

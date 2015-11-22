@@ -16,6 +16,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
@@ -29,7 +30,8 @@ public class CameraActivity extends AppCompatActivity {
         setContentView(R.layout.activity_camera);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView.loadUrl("https://stream-delta.dropcam.com/nexus_aac/b8fbe1918dd5470e913d5780445bc66b/playlist.m3u8");
 
     }
 
