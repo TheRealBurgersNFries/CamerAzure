@@ -38,7 +38,12 @@
                 height:170px;
                 width:170px;
                 display:inline-block;
+                margin:20px;
             }
+            #selected{
+                border: 20px solid blue;
+            }
+
         </style>
     </head>
     <body>
@@ -53,12 +58,16 @@
 ?>
             <div class="content">
             <?php
-            if(isset($results)){
-                print_r($results);
-            }
+            
             foreach($colors as $color){
                 $formatting = "";
-                echo '<span><img class="demo_img" src="beats/'.$color.'.jpg"></span>';
+                if(isset($results)){
+                if(strpos($results, $color)){
+                    $formatting = ' id="selected" ';
+                }
+            }
+                
+                echo '<span><img class="demo_img" '.$formatting.'src="beats/'.$color.'.jpg"></span>';
             }
             ?>
             </div>
