@@ -120,11 +120,10 @@ class API_Controller extends Controller
                 foreach ($colors as $color){
                     if(strpos($result->name, $color)){
                         array_push($results, $color);
-                        print_r($results);
                     }
                 }
-
-                return View::make('beats')->with("results", $results)->with("search_result", $result->name);
+                $returnarray = array("results" -> $results, "search_result" -> $result->name);
+                return View::make('beats')->with("returnarray", $returnarray);
                           
 }
            else {
