@@ -134,8 +134,6 @@ class API_Controller extends Controller
        }
     }
 
-    public func
-
    /**
      * Show the form for creating a new resource.
      *
