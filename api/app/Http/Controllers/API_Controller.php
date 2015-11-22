@@ -120,6 +120,7 @@ class API_Controller extends Controller
                 foreach ($colors as $color){
                     if(strpos($result->name, $color)){
                         array_push($results, $color);
+                        print_r($results);
                     }
                 }
 

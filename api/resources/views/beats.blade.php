@@ -55,7 +55,7 @@
 @endif
 <?php
     $colors = array("black", "blue", "gold", "green", "pink", "red");
-    if(isset($results)){
+    if(!empty($results)){
                 print_r($results);
     }
 ?>
