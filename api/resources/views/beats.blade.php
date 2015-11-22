@@ -46,11 +46,7 @@
     $colors = array("black", "blue", "gold", "green", "pink", "red");
 ?>
             <div class="content">
-            <?php
-            foreach($colors as $color){
-                echo '<span><img src="beats/'.$color.'.jpg"></span>';
-            }
-            ?>
+            
             </div>
         </div>
     </body>
