@@ -58,7 +58,9 @@
 ?>
             <div class="content">
             <?php
-            echo $search_result;
+            if (isset($search_result)){
+                echo $search_result;
+            }
             foreach($colors as $color){
                 $formatting = "";
                 if(isset($results)) {
