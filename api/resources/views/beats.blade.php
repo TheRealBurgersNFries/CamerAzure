@@ -35,8 +35,8 @@
             }
 
             .demo_img{
-                height:100px;
-                width:100px;
+                height:170px;
+                width:170px;
                 display:inline-block;
             }
         </style>
