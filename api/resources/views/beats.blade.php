@@ -61,16 +61,13 @@
 ?>
             <div class="content">
             <?php
-            if (isset($returnarray['search_result'])){
-                echo $returnarray['search_result'];
-            }
             foreach($colors as $color){
                 $formatting = "";
                 if(isset($returnarray['results'])) {
                     if(in_array($color, $returnarray['results'])){
                         $formatting = ' id="selected" ';
                 }   
-                }
+            }
                 
                 echo '<span><img class="demo_img" '.$formatting.'src="beats/'.$color.'.jpg"></span>';
             }

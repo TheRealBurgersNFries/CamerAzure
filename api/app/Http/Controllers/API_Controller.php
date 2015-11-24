@@ -118,7 +118,7 @@ class API_Controller extends Controller
                }
                
                 foreach ($colors as $color){
-                    if(strpos($result->name, $color)){
+                    if(strpos($result->name, $color)===false){
                         array_push($results, $color);
                     }
                 }
