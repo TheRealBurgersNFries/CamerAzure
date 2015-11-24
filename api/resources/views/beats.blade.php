@@ -56,7 +56,10 @@
 <?php
     $colors = array("black", "blue", "gold", "green", "pink", "red");
     if(!empty($returnarray['results'])){
+        echo '<div>';
                 print_r($returnarray['results']);
+
+            echo '</div>';
     }
 ?>
             <div class="content">
