@@ -58,7 +58,7 @@
     if(!empty($returnarray['results'])){
         echo '<div>';
                 print_r($returnarray['results']);
-                if isset($returnarray['search_result']){
+                if (isset($returnarray['search_result'])){
                     echo $returnarray['search_result'];
                 }
             echo '</div>';
